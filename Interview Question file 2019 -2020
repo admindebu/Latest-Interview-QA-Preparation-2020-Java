@@ -1,0 +1,165 @@
+Interview Questions (2019 – 2020) Java Developer & Java Automation Tester 
+ 
+Listed Company: Publicis sapient, TCS, CTS, Capgemini, Tech Mahindra, BNY Melon, Bank of America, CITI Bank, Intellect Design, PayPal, Barclays,  Amazon, Incedo, Altran, Hexaware, FreshWorks, HCL, Infosys, MindTree, Syntel, ThoughWorks, Nielsen, UST Global, KLA Tencor, Amaris, Siemens, Virtusa, Polaris, FIS, HTC Global, Accenture, BNP Paribars, FSS, Sasken, LTI, CSS Crop, Aricent 
+ 
+1. What is CountDownLatch & How it’s work ? 
+2. What is Procedure Consumer issue and How you will solve it using java ? 
+3. Why HashMap allowing only one null key and how it will evaluated by hashcode ? 
+4. How to take Thread Dump and Heap Jump ( what tool you have used for trace Heap dump & Thread dump) ? 
+5. What is G1 in JVM (what does do G1) and What are the GC algorithm JVM used ? 
+6. Which scenario you will use Callable and Runnable Interface? 
+7. Best suggestion to use as an key of Class's object in the HashMap? 
+8. What is bucket in the HashMap? and after Java 8 what they made changes & why? 
+9. Sorting using Comparable and Comparator ? 
+10.  Future in Thread? 
+11. What is ReEnteredLock ? 
+12. best practices for analysing Thread dump ? 
+13. Difference @Component, @Bean, @Repository, @Service, @Configuration ? 
+14. Difference between @Contrlller and @RestController ? 
+15. Difference between @RequestMapping and @Putmapping, @GetMapping, @DeleteMapping, @PostMapping etc ? 
+16. What is DI and IOC? 
+17. How many ways we can create the bean? 
+18. Scope of the Bean in Spring? How to define custom scope of the bean ? 
+19. Difference between DI and @Autowired ? 
+20. Difference between Abstract class and Interface after java 8?  Which scenario you will go for abstract class and Interface ? 
+21. What is there in the @SpringBootApplication ? 
+22. How to write custom annotation in Java ? 
+23. StringBuffer or StringBuilder which scenario we should consider? 
+24. What is the default min and max heap size in JVM ? 
+25. Which collection API we have worked and Explain the scenario where & why you have used in your project ? 
+26. which scenario we should go for HashTable and ConCurrentHashMap? 
+27. What is marker Interface? Example ? 
+28. What is the base of Exception Class? 
+29. Difference between compile time exception and runtime exception ? what's the benefits ? 
+30. Can we catch null pointer exception ? if yes then how ? 
+31. what is try resource ? In which scenarios we should use this one ?? 
+32. Why class need to @Override  hashcode & euqals method ? 
+33. difference between wait and sleep? 
+34. how to find whether any thread is blocked or waiting? 
+35. In Thread Dump will it show the status of daemon thread or not ? 
+36. difference between jstack and jcmd ? 
+37. which build tool is better and why? ant or maven or graddle ? 
+38. what is table partition in Oracle? what is the alternative in postgres SQL ? 
+39. Does postgres support procedure ? if not then what is the default ? 
+40. What is the time complexity of hashcode method ? 
+41. What are the encryption algorithm you know and time complexity ? 
+42. Difference between NoSQL and RDBMS ? and which scenario you should go for which type DB ? 
+43. How to find unique record in the NoSQL DB ( Mongo and CouchBase ) ? 
+44. How to secure your Rest micro service ? Explain the Security mechanism ? 
+45. What's the difference between Queue and Tropic based messaging System? 
+46. What's the difference between Kafka and JMS ? ( as both cases we can create the queue and tropic ) 
+47. How to optimized the DB Query and what's tool you have used? 
+48. What is the purpose of Stream Api and how it works internally ? 
+49. What is functional interface and what is the purpose of this interface ? Eplain few Functional interface you have used in your project ? 
+50. We can write concrete method in the abstract class and also interface concrete method default after java 8. then what's the difference? 
+51. Can we mark any method @Bean inside the @Component marked class? if not then what would be the solution? 
+52. What is the use of volatile ? 
+53. what is enum and what's the use of enum ? which scenario you will go for enum ? 
+54. what is varargs ?  
+55. what is generic and what's the purpose? how to declare generic in java ? 
+56. difference between get and post method? 
+57. difference between @PathVariable, @RequestBody, @RequestParam, @QueryParam ? 
+58. what are the joins is there and which scenario you will go for that particular join ? 
+59. how to find out there is memory leak in the application ? 
+60. how garbage collection happen in java ?  whether JVM look for dead object or live object during garbage collection? if live or dead then how internally happen? 
+61. what is class loader ? what are the class loader is their ? how to force the JVM to load the perticular class by specific class loader ? 
+62. Difference between git and GitHub ? 
+63. difference between git and SVN ? 
+64. difference between git rebase and git merge command ? 
+65. when git conflict happen ( scenario ) and how fixed it ? 
+66. what is git stash command ? 
+67. how to edit the git commit message ? 
+68. how to revert the perticular git commit ? 
+69. how to merge the two git branches ? 
+70. Suppose you need to merge three branches and put it in new branches, how to do that ? 
+71. what is code refactoring? 
+72. difference between bridge and adapter design pattern? 
+73. what is below design pattern and write the class diagram for the design pattern :  
+Singleton, builder, prototype, abstract factory pattern, factory Method, Adapter, bridge, facade, filter, composite, flyweight, proxy, Chain of responsibility , 
+Observer,  Null Object pattern , strategy pattern, MVC pattern 
+78. what is SOLID principal ? 
+79. what is race condition and solution ? 
+80. what is deadlock and to resolve in your code ? 
+81. what is starvation and how to reduce the starvation of a Thread ? 
+82. what are the metrices you will consider in SonarQube for checking your code quality  ? What’s most important ? 
+83. purpose of the different Netflix open source component ? 
+84. what is compile time polymorphism and runtime poly morphism with example ? 
+85. what is executor service? what is thread pool ? how to create thread pool ? What is Fork join ? 
+86. what is JWT security ? How it’s work ? Difference Between SAML and SSO ? 
+87. what is non-blocking mechanism and how web flux works internally ? 
+88. difference between blocking and non-blockin application ? 
+89. instead of WebClient in spring, we can make the Class with @Async annotation and get the Concurrency facility. Then what’s the purpose of introduce WebTestClient  in Web Flux ? 
+90. What is blue-green deployment? 
+91. what is the difference between JAR, WAR, EAR file ? 
+92. what is Cyclomatic complexity in SonarQube? 
+93. what is Nashorn engine ? 
+94. what does mean by CI and CD ? 
+95. what are the designed pattern used by Spring framework? ( singleton, Proxy, Factory, MVC ) 
+96. what does do Dispacther Servlet? 
+97. Explain the Discovery service with others netflix component ? 
+98.  what are the report you will get from the SonarQube analysis ? 
+99. what is the image file size of Docker in your project? What is the entry point in Docker ? What’s the main purpose of docker in micro service architecture ? 
+100. Difference between docker swarm and Kubernetes? 
+101. How Kubernetes works? 
+102. what is Graphana ? How it’s work ? 
+103. what is cap Theorem in DB ? 
+104. what is vertical and horizontal scaling ? 
+105. What is Terminal and intermediate function in JAVA 8 Stream API ? give few methods name ? What’s return terminal function Stream or normal Object ? What’s  return intermediate function Stream or normal Object ?  How to create Parallel Stream in JAVA? Suppose you make your operation Parallel Stream, Now immediate connectivity intermediate function will return still parallel Stream or Sequential Stream ? 
+106. what is the purpose of actuator ? 
+107. How to setup fallback mechanism of the API service ? 
+ 
+108. In order to make HashMap as  thread safe, we can use Collections.synchronized method, Then why HashTable and ConCurrentHashMap are given by the java ? 
+ 
+109. What does do @SpringBootApplication  or combination in Java ? 110. why we declare  Logger  as  Logger private static final Logger log in the class ?  111. How internally @Transactional Annotation works ? 
+112. How differ @Repository, @Service from @Component  
+113. In Different Server @Transactional Can works?? 
+114. Difference Between Jacoco vs EclEMMa ? 
+ 
+115. What is the difference between redis and memcahced ? 
+116. how redis work for update and get ?  shall we do clustring in redis and memcahed ? 
+117. difference between @EnableDiscoveryClient  and @EnableEurekaClient ?  
+118. what is Hazelcast ? 
+119. what is the difference between Zull and Nginix ? 
+120. what is github starts and forks ? 
+121. what is forks in VCS ? 
+122. what is grpc ? 
+123. Tell me about yourself or your current project and roles & Responsibilities ? 
+124. After java 8 In interface we can declare the static method and by default variables are static, then why java has introduce static class ? 
+125. We can declare any constant variable by final and static keword, then why java has introduce enum ? In which scenario we will go for enum not static class ? 
+126. What is method of overloading and method of overridden ? In which scenario we will use those ? 
+127. What is encapsulation ? How we achieve it ? 
+128. Have you developed any framework single handed ? If yes then describe the details of the project… Including technologies, purpose and challenges ? 
+129. Till now biggest challenges related your code or project and how you have overcome ? 
+130. How you handle exception ? What's the main class of exception class ? 
+131. What's the purpose of primitive data type and wrapper class ? Which scenario we will use those ? 
+132. We can achieve same functionality with method of overloading and keeping different name for different purpose.. which you will prefer and why ??? If not overloading then why java has given method of overloading ? 
+133. What is diamond problem and how we achieve it ? 
+134. What is the signature of method of overloading ? 
+135. How we use executors service ? Have you worked on multi threaded application ?? If yes elaborate in which scenario you have used it ? 
+136. Java Coding  Based on String, Array, Collection API and Data Structure, Algorithm. 
+ 
+Array Operation, String Operation, Stack, Queue ( De-Queue), LinkList ( Single, Double, Circular ) 
+Searching and Sorting ( Linear Search, Binary Search, QuickSort, Selection Sort, Bubble Sort, Insertion Sort, Radix Sort, Heap Sort, Merge Sort ) 
+Trees and Graph ( DFS, BFS, Minimum Spanning Tree, Shortest Path Calculation, Backtracking, Find the Root or Mother vertex, Max Heap & Min Heap, AVL tree, BST, B Tree, in-order and pre-Order Notation, Level of a Node) 
+ 
+137. Few Frameworks & Tool : RestAssured, TestNG, Junit 5, Mocikto, Jmeter, SOAP UI, PostMan, Apache POI, Selenium, Appium,    Java Script, Lombok, Gradle, Maven, Git all the command, Jenkins, DB Testing Framework Dev. 
+138. DataBase : Both RDBMS & NoSQL. 
+Complex Query design, Table design based on scenario ?  
+137. Main Topics 
+Introduction for the sample project 
+Core Services 
+Discovery Server 
+Discovery Client 
+Client Side Load Balancer 
+API Gateway 
+Security Flow 
+Service resilience and Fault tolerance 
+State-Less Server 
+Common-Lib 
+AWS Service – EC2, API Gateway, S3 Bucket, AutoScaling, Lambda, SNS, SQS, IAM & Few more …  
+138. Rest of the Things Based on Your CV 
+ 
+Wish You All the Best …… Debu Paul 
+YouTube Channel  : https://www.youtube.com/c/techtalkdebu 
+FaceBook Page : TechTalk Debu 
+GitHub Source Code : https://github.com/admindebu 
